@@ -10,8 +10,7 @@ h3{
   text-align: center;
   font-family: Helvetica, sans-serif;
   font-stretch: extra-expanded;
-  padding:10%;
-  margin:10%
+
 
   
 }
@@ -30,7 +29,7 @@ list-style-image:-moz-element();
    column-count:5;
    column-gap:5px;
    background-color: #ffffff;
-   margin: 2%, 0, 0, 2%;
+   margin: 2%, 2%, 10%, 10%;
   align-content:space-between;
 }
 #gallery img {
@@ -95,7 +94,7 @@ header{
  .container {
    padding: 10px 15px;
    position: relative;
-   background-color: inherit;
+   background-color: white;
    width: 50%;
  }
  
@@ -106,7 +105,7 @@ header{
    width: 25px;
    height: 25px;
    right: -17px;
-   border: 4px solid rgba(128, 0, 128, 0.849);
+   border: 4px solid rgba(128, 0, 128, 0.75);
    top: 15px;
    border-radius: 50%;
    z-index: 1;
