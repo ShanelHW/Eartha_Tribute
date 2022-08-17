@@ -27,15 +27,16 @@ list-style-image:-moz-element();
    -webkit-column-count:5; /* split it into 5 columns */
    -webkit-column-gap:5px; /* give it a 5px gap between columns */
    column-count:5;
-   column-gap:5px;
-   background-color: #ffffff;
+   column-gap:2%;
    margin: 2%, 2%, 10%, 10%;
   align-content:space-between;
 }
 #gallery img {
-   width: 50% !important;
+   width: 75% !important;
    height: auto !important;
-   margin:10% 10%; /* to match column gap */
+   margin:2% 2%; /* to match column gap */
+   border-color:#ffffff;
+   border-style: solid;
  }
 header{
    background: ghostwhite;
@@ -53,20 +54,18 @@ header{
 }
 #quote{
    background-color: #ffffff;
-
-     -webkit-border-radius: 5px;
-   border-radius: 5px;
+   border-radius: 2px;
    border-style: solid;
-   border-color:rgb(66, 2, 66);   
+   border-color: #eeeeee;   
    margin: 4%;
 
 }
 #links{
-   background: rgba(75, 74, 74, 0.418);
+   background: #eee
    border-style: solid;
    border-color:#ffffff;
    margin: 1%;
-   color: white;
+   color: #ffffff;
   
 
 }
