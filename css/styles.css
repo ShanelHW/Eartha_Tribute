@@ -6,6 +6,15 @@ body {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
+h3{
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-stretch: extra-expanded;
+  padding:10%;
+  margin:10%
+
+  
+}
 #thumbnail {
 max-height: 80px;
 max-width: auto;
@@ -18,31 +27,17 @@ list-style-image:-moz-element();
    line-height:0;
    -webkit-column-count:5; /* split it into 5 columns */
    -webkit-column-gap:5px; /* give it a 5px gap between columns */
-   -moz-column-count:5;
-   -moz-column-gap:5px;
    column-count:5;
    column-gap:5px;
    background-color: #ffffff;
    margin: 2%, 0, 0, 2%;
-
-   -webkit-border-radius: 5px;
-  border-radius: 5px;
-  border-style: solid;
-  border-color:rgb(66, 2, 66);  padding: 20px 30px;
-  margin: 1%;
   align-content:space-between;
 }
 #gallery img {
-   width: 100% !important;
+   width: 50% !important;
    height: auto !important;
-   margin-left:10%; /* to match column gap */
-   margin-right:10%;
-   margin-bottom:4%;
-   border-color:rgb(66, 2, 66);
-   
-   
-
-}
+   margin:10% 10%; /* to match column gap */
+ }
 header{
    background: ghostwhite;
   margin: 1%;
