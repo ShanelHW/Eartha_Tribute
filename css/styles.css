@@ -48,6 +48,7 @@ header{
   border-style: solid;
   border-color:#eee;
   margin: 4%;
+  display: inline-block;
 
 }
 #quote{
@@ -96,6 +97,7 @@ header{
    position: relative;
    background-color: white;
    width: 50%;
+   display:-moz-inline-stack;
  }
  
  /* The circles on the timeline */
