@@ -2,7 +2,7 @@
    box-sizing: border-box;
  }
 body {
-  background-color: rgb(221, 218, 218);
+  background-color: #eee;
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
@@ -11,7 +11,9 @@ max-height: 80px;
 max-width: auto;
 border-color:rgb(66, 2, 66);
 border-style:solid;
+list-style-image:-moz-element();
 }
+
 #gallery {
    line-height:0;
    -webkit-column-count:5; /* split it into 5 columns */
@@ -33,8 +35,8 @@ border-style:solid;
 #gallery img {
    width: 100% !important;
    height: auto !important;
-   margin-left:auto; /* to match column gap */
-   margin-right:20%;
+   margin-left:10%; /* to match column gap */
+   margin-right:10%;
    margin-bottom:4%;
    border-color:rgb(66, 2, 66);
    
@@ -42,20 +44,15 @@ border-style:solid;
 
 }
 header{
-   background: radial-gradient(rgb(209, 189, 209), rgb(66, 2, 66));
-     -webkit-border-radius: 5px;
-   border-radius: 5px;
-   border-style: solid;
-   border-color:rgb(66, 2, 66);
-   margin: 1%;
-   color: white;
-   text-shadow: lightgray;
+   background: ghostwhite;
+  margin: 1%;
+   color:rgba(75, 74, 74, 0.418);
 }
 #timeline {
    -webkit-border-radius: 5px;
   border-radius: 5px;
   border-style: solid;
-  border-color:rgb(221, 218, 218);
+  border-color:#eee;
   margin: 4%;
 
 }
@@ -70,14 +67,12 @@ header{
 
 }
 #links{
-   background: radial-gradient(rgb(209, 189, 209), rgb(66, 2, 66));
-     -webkit-border-radius: 5px;
-   border-radius: 5px;
+   background: rgba(75, 74, 74, 0.418);
    border-style: solid;
-   border-color:rgb(66, 2, 66);
+   border-color:#ffffff;
    margin: 1%;
    color: white;
-   text-shadow: lightgray;
+  
 
 }
 
@@ -86,7 +81,7 @@ header{
    position: relative;
    max-width: 1200px;
    margin: 0 auto;
-   background-color: #ffffff;
+   background-color: rgba(75, 74, 74, 0.418);
  }
  
  /* The actual timeline (the vertical ruler) */
@@ -94,7 +89,7 @@ header{
    content: '';
    position: absolute;
    width: 8px;
-   background-color: lightgray;
+   background-color: rgba(75, 74, 74, 0.418);
    top: 0;
    bottom: 0;
    left: 50%;
@@ -116,7 +111,7 @@ header{
    width: 25px;
    height: 25px;
    right: -17px;
-   border: 4px solid purple;
+   border: 4px solid rgba(128, 0, 128, 0.849);
    top: 15px;
    border-radius: 50%;
    z-index: 1;
@@ -125,13 +120,13 @@ header{
  /* Place the container to the left */
  .left {
    left: 0%;
-   background-color:black;
+   background-color:rgba(75, 74, 74, 0.418);
  }
  
  /* Place the container to the right */
  .right {
    left: 50%;
-   background-color: black;
+   background-color: rgba(75, 74, 74, 0.418);
 
  }
  
@@ -170,10 +165,11 @@ header{
  
  /* The actual content */
  .content {
-   padding: 20px 30px;
+   padding: 1px 3px 1px 1px;
    background-color: white;
    position: relative;
-   border-radius: 6px;
+   border-radius: 2px;
+   color: rgba(75, 74, 74, 0.685);
  }
  
  /* Media queries - Responsive timeline on screens less than 600px wide */
